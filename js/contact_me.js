@@ -43,7 +43,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>对不起 " + firstName + ", 我的邮件服务器似乎没有响应. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>对不起 " + firstName + ", 我的邮件服务器似乎没有响应. 请稍后再试！");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
